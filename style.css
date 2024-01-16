@@ -74,6 +74,11 @@ section{
     color:rgb(234, 233, 233);
     font-weight: 1000;
 }
+.link-button:hover{
+    color: #00648f;
+    size: 49px;
+}
+
 .dream-area{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;

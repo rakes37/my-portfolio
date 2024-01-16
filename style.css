@@ -1,23 +1,81 @@
+
 body{
-    font-family:'Poppins', sans-serif;    
+    font-family:'Poppins', sans-serif; 
+background-color:#f9f5db;   
 }
 
 h1{
     font-size: 40px;
 }
-
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .name-highlights{
     color: orange;
+    animation-name:title ;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
 }
+@keyframes title{
+    0% {
+        color:#FF7F50 ;
+        
+    }
+    25%{
+        color:#D2691E;
+        
+    }
+    50%{
+        color: #40E0D0;
+    }
+    75%{
+        color: #4169E1;
+    }
+    100%{
+       color:  #FF4500;
+    }
+    
+}
+
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 3%;
+    margin-left: 5%;
+    padding-left: 2%;
     
 }
 .half-width img{
-    width: 60%;
-    padding-left: 210px;
-    padding-top: 20px;
-    border-radius: 2%;
+    width: 50%;
+    padding-left: 40%;
+    padding-top: 5%;
+    padding-right: 10%;
+
+}
+
+.top-banner{
+    
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 2%;   
+}
+.link-button{
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 15px;
+    color:rgb(234, 233, 233);
+    font-weight: 1000;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
